@@ -1,0 +1,52 @@
+/* Custom Styles */
+.container {
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #f7f7f7;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+	margin-bottom: 20px;
+}
+
+.btn {
+	border-radius: 20px;
+}
+
+.btn-primary {
+	background-color: #007bff;
+	border-color: #007bff;
+}
+
+.btn-primary:hover {
+	background-color: #0056b3;
+	border-color: #0056b3;
+}
+
+.btn-secondary {
+	background-color: #6c757d;
+	border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+	background-color: #5a6268;
+	border-color: #545b62;
+}
+
+.container-fluid {
+	background-color: #2bb354; /* Container background color */
+}
+
+.bottom-section {
+	background-color: #2bb354; /* Bottom section background color */
+	height: 950px; /* Adjust the height as needed */
+}
+
+/* Centering the text */
+.text-center label {
+	display: inline-block;
+	text-align: center;
+}

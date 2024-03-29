@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card mt-5">
+                    <div class="card-body">
+                        <h1 class="text-center mb-4">Random Password Generator</h1>
+                        <div class="form-group text-center"> <!-- Centering the text -->
+                            <label for="length">Length: <span id="lengthDisplay">12</span></label>
+                            <input type="range" id="length" class="form-control" min="1" max="120" value="12">
+                        </div>
+                        <div class="form-group form-check d-flex">
+                            <input type="checkbox" class="form-check-input" id="includeSymbols">
+                            <label class="form-check-label" for="includeSymbols">Include symbols</label>
+                        </div>
+                        <div class="form-group form-check d-flex">
+                            <input type="checkbox" class="form-check-input" id="includeNumbers">
+                            <label class="form-check-label" for="includeNumbers">Include numbers</label>
+                        </div>
+												<div class="form-group form-check d-flex">
+													<input type="checkbox" class="form-check-input" id="includeUppercase">
+													<label class="form-check-label" for="includeUppercase">Include uppercase</label>
+											</div>
+                        <div class="text-center">
+                            <button class="btn btn-primary mr-2" onclick="generateRandomPassword()">Generate Password</button>
+                            <button class="btn btn-secondary" onclick="exportPassword()">Export Password</button>
+                        </div>
+                        <div id="result" class="text-center mt-4"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-section"></div>
+    <script src="script.js"></script>
+</body>
+</html>
