@@ -3,17 +3,17 @@
 
 ## Description: My newest attempt to make a clean easy to use password Generator. I made this same project while in my bootcamp at the University of Utah I thought returning to it to see how far I have come would be fun.
 
-### Tabel of contents
+### Table of contents
 
 * [License](#license)
 
-* [instalation](#instalation)
+* [installation](#installation)
 
 * [testing](#testing)
 
 * [usage](#usage)
 
-* [contributers](#contributers)
+* [contributors](#contributors)
 
 * [github](#github)
 
@@ -22,16 +22,16 @@
 #### License
 ![License icon](https://img.shields.io/badge/license-NONE-blue.svg)
 
-#### instalation
-Instalation is not required use link, if for some reason you would like to dowload it anyway just clone the repo from github.
+#### installation
+Installation is not required use link, if for some reason you would like to download it anyway just clone the repo from github.
 
 #### Testing
 NA
 
 #### Usage
-Use the slider to change character amount then use the checkboxes to tailor the password your needs. (Using symboles make conflict with field requirements at times.)
+Use the slider to change character amount then use the checkboxes to tailor the password your needs. (Using symbols make conflict with field requirements at times.)
 
-#### Contributers
+#### Contributors
 NA
 
 #### GitHub
